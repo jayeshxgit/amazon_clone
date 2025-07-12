@@ -1,0 +1,170 @@
+*{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.navbar{ /* to get the details simply inspect the websites and add them*/
+    height: 60px;
+    background-color:black;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; /*did this so that as we add more things in nav, others gets pushed on the left.*/
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url(amazon_logo.png);
+     height: 50px;
+    width: 100px;
+    background-size: cover; /* fills the whole div with the image*/
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border:2px solid white;
+}
+/*styling for box 2*/
+.add-first{
+    font-size: 0.85rem;
+    color:bisque;
+    margin-left: 15px;
+}
+.add-second{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+    align-items: center; 
+}
+/* styling for box 3*/
+ 
+.nav-search-items{
+    display: flex;
+    justify-content: space-evenly;
+    width: 620px;
+    height: 40px;
+    background-color: beige;
+    border-radius: 4px;
+}
+.search-select{
+    background-color: blanchedalmond;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.search-input{
+    width:100%;
+    font-size:1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: rgb(205, 138, 13);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: black;
+}
+.nav-search-items:hover{
+    border: 2px solid orange;
+}
+.nav-cart i{
+    font-size: 30px
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/*style for panel*/
+.panel{
+    height: 40px;
+    background-color: rgb(8, 6, 61);
+    display: flex;
+    color:white;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.panel-ops p{
+    display: inline;
+    margin-left: 15px; /*this will align the content mentioned in panels-ops. a very important practice*/
+}
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+   
+}
+.panel-deals{
+    font-size: 0.9rems;
+}
+/*hero section*/
+.hero-section{
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-msg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin-bottom: 25px;
+}
+/*shop section*/
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: antiquewhite;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    border: 2px solid black;
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+    border: none;
+}
+.box-img{
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-content p{
+    color: rgb(73, 73, 218)
+}
+
+/*footer*/
+.foot-panel{
+background-color: rgb(75, 23, 123);
+color:white;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 50px;
+
+}
